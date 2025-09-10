@@ -1,0 +1,24 @@
+{
+  "zones": [
+    {"zone_id": "Z1", "name": "Velachery", "lat": 12.979, "lon": 80.221, "population": 5200, "access": "boat_only", "severity": 0.88, "demand_food": 5200, "demand_water": 5200, "demand_med": 300},
+    {"zone_id": "Z2", "name": "Adyar", "lat": 13.006, "lon": 80.257, "population": 4600, "access": "road_open", "severity": 0.72, "demand_food": 4600, "demand_water": 4600, "demand_med": 280},
+    {"zone_id": "Z3", "name": "Perungudi", "lat": 12.969, "lon": 80.243, "population": 4100, "access": "road_open", "severity": 0.55, "demand_food": 4100, "demand_water": 4100, "demand_med": 220},
+    {"zone_id": "Z4", "name": "Teynampet", "lat": 13.043, "lon": 80.254, "population": 3900, "access": "road_open", "severity": 0.48, "demand_food": 3900, "demand_water": 3900, "demand_med": 210},
+    {"zone_id": "Z5", "name": "Royapettah", "lat": 13.074, "lon": 80.281, "population": 4500, "access": "boat_only", "severity": 0.95, "demand_food": 4500, "demand_water": 4500, "demand_med": 250},
+    {"zone_id": "Z6", "name": "Mylapore", "lat": 13.044, "lon": 80.259, "population": 3800, "access": "road_open", "severity": 0.62, "demand_food": 3800, "demand_water": 3800, "demand_med": 230},
+    {"zone_id": "Z7", "name": "Kilpauk", "lat": 13.083, "lon": 80.267, "population": 4200, "access": "road_open", "severity": 0.60, "demand_food": 4200, "demand_water": 4200, "demand_med": 240},
+    {"zone_id": "Z8", "name": "Anna Nagar", "lat": 13.084, "lon": 80.217, "population": 4700, "access": "boat_only", "severity": 0.78, "demand_food": 4700, "demand_water": 4700, "demand_med": 260},
+    {"zone_id": "Z9", "name": "Koyambedu", "lat": 13.092, "lon": 80.186, "population": 5300, "access": "road_open", "severity": 0.80, "demand_food": 5300, "demand_water": 5300, "demand_med": 300},
+    {"zone_id": "Z10", "name": "Guindy", "lat": 12.977, "lon": 80.234, "population": 5100, "access": "road_open", "severity": 0.67, "demand_food": 5100, "demand_water": 5100, "demand_med": 290},
+    {"zone_id": "Z11", "name": "Nungambakkam", "lat": 13.076, "lon": 80.244, "population": 5000, "access": "road_open", "severity": 0.59, "demand_food": 5000, "demand_water": 5000, "demand_med": 280},
+    {"zone_id": "Z12", "name": "Mandaveli", "lat": 13.054, "lon": 80.281, "population": 4600, "access": "boat_only", "severity": 0.74, "demand_food": 4600, "demand_water": 4600, "demand_med": 275},
+    {"zone_id": "Z13", "name": "Egmore", "lat": 13.070, "lon": 80.268, "population": 4300, "access": "road_open", "severity": 0.65, "demand_food": 4300, "demand_water": 4300, "demand_med": 250},
+    {"zone_id": "Z14", "name": "Chetpet", "lat": 13.066, "lon": 80.245, "population": 4100, "access": "road_open", "severity": 0.58, "demand_food": 4100, "demand_water": 4100, "demand_med": 220},
+    {"zone_id": "Z15", "name": "Choolai", "lat": 13.068, "lon": 80.245, "population": 3700, "access": "boat_only", "severity": 0.82, "demand_food": 3700, "demand_water": 3700, "demand_med": 210},
+    {"zone_id": "Z16", "name": "Pallavaram", "lat": 12.979, "lon": 80.179, "population": 5200, "access": "road_open", "severity": 0.60, "demand_food": 5200, "demand_water": 5200, "demand_med": 300},
+    {"zone_id": "Z17", "name": "Sholinganallur", "lat": 12.866, "lon": 80.229, "population": 4800, "access": "road_open", "severity": 0.68, "demand_food": 4800, "demand_water": 4800, "demand_med": 270},
+    {"zone_id": "Z18", "name": "Chromepet", "lat": 12.915, "lon": 80.132, "population": 4600, "access": "boat_only", "severity": 0.77, "demand_food": 4600, "demand_water": 4600, "demand_med": 250},
+    {"zone_id": "Z19", "name": "Tambaram", "lat": 12.933, "lon": 80.122, "population": 5000, "access": "road_open", "severity": 0.72, "demand_food": 5000, "demand_water": 5000, "demand_med": 280},
+    {"zone_id": "Z20", "name": "Thiruvanmiyur", "lat": 12.985, "lon": 80.243, "population": 5400, "access": "boat_only", "severity": 0.80, "demand_food": 5400, "demand_water": 5400, "demand_med": 320}
+  ]
+}

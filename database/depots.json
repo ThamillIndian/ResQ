@@ -1,0 +1,16 @@
+{
+  "depots": [
+    {"depot_id": "D1", "name": "Perungudi Depot", "lat": 12.964, "lon": 80.241, "stock_food": 12000, "stock_water": 9000, "stock_med": 600},
+    {"depot_id": "D2", "name": "Adyar Depot", "lat": 13.007, "lon": 80.255, "stock_food": 9000, "stock_water": 7000, "stock_med": 500},
+    {"depot_id": "D3", "name": "Boat Jetty", "lat": 12.988, "lon": 80.229, "stock_food": 6000, "stock_water": 6000, "stock_med": 400},
+    {"depot_id": "D4", "name": "Anna Nagar Depot", "lat": 13.084, "lon": 80.217, "stock_food": 11000, "stock_water": 8500, "stock_med": 550},
+    {"depot_id": "D5", "name": "Kilpauk Depot", "lat": 13.083, "lon": 80.267, "stock_food": 10500, "stock_water": 8200, "stock_med": 520},
+    {"depot_id": "D6", "name": "Mylapore Depot", "lat": 13.044, "lon": 80.259, "stock_food": 11500, "stock_water": 8800, "stock_med": 530},
+    {"depot_id": "D7", "name": "Royapettah Depot", "lat": 13.074, "lon": 80.281, "stock_food": 12500, "stock_water": 9500, "stock_med": 600},
+    {"depot_id": "D8", "name": "Teynampet Depot", "lat": 13.043, "lon": 80.254, "stock_food": 9500, "stock_water": 7000, "stock_med": 480},
+    {"depot_id": "D9", "name": "Guindy Depot", "lat": 12.977, "lon": 80.234, "stock_food": 9000, "stock_water": 7500, "stock_med": 500},
+    {"depot_id": "D10", "name": "Egmore Depot", "lat": 13.070, "lon": 80.268, "stock_food": 11000, "stock_water": 9000, "stock_med": 600},
+    {"depot_id": "D11", "name": "Sholinganallur Depot", "lat": 12.866, "lon": 80.229, "stock_food": 11000, "stock_water": 9500, "stock_med": 600},
+    {"depot_id": "D12", "name": "Chromepet Depot", "lat": 12.915, "lon": 80.132, "stock_food": 10000, "stock_water": 8000, "stock_med": 550}
+  ]
+}
