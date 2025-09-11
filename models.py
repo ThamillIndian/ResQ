@@ -37,7 +37,9 @@ class Asset(BaseModel):
 class Event(BaseModel):
     type: str  # "road_block" or "sos_spike"
     target_zone: str
-    additional_demand: Optional[int] = 0
+    food_demand: Optional[int] = None
+    water_demand: Optional[int] = None
+    medical_demand: Optional[int] = None
     new_access: Optional[str] = None
 
 

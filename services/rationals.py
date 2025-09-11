@@ -1,6 +1,6 @@
 from typing import List
 
-from disaster_relief_backend.models import Plan
+from models import Plan
 
 
 def generate_rationales(plan: Plan) -> List[str]:

@@ -1,8 +1,8 @@
 from typing import List, Dict
 
-from disaster_relief_backend.models import Event, Plan, Zone, Depot, Asset
-from disaster_relief_backend.services.optimizer import optimize_plan
-from disaster_relief_backend.utils.distance_matrix import compute_distance_matrix
+from models import Event, Plan, Zone, Depot, Asset
+from services.optimizer import optimize_plan
+from utils.distance_matrix import compute_distance_matrix
 
 
 def apply_event(
@@ -27,10 +27,14 @@ def apply_event(
             elif event.type == "road_clear":
                 # Default to restoring road access; caller can override via new_access
                 zone.access = event.new_access or "road_open"
-            elif event.type == "sos_spike" and event.additional_demand:
-                zone.demand_food += event.additional_demand
-                zone.demand_water += event.additional_demand
-                zone.demand_med += event.additional_demand
+            elif event.type == "sos_spike":
+                # Update zone demands with specific values if provided
+                if event.food_demand is not None:
+                    zone.demand_food = event.food_demand
+                if event.water_demand is not None:
+                    zone.demand_water = event.water_demand
+                if event.medical_demand is not None:
+                    zone.demand_med = event.medical_demand
 
     # Recompute distances in case access rules later affect speed calculations
     updated_distance_matrix = compute_distance_matrix(depots, zones)

@@ -1,7 +1,7 @@
 import math
 from typing import Dict
 
-from disaster_relief_backend.models import Zone, Depot
+from models import Zone, Depot
 
 
 def haversine(lat1: float, lon1: float, lat2: float, lon2: float) -> float:

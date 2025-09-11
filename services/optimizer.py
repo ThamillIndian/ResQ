@@ -1,9 +1,9 @@
 from typing import List, Dict, Tuple
 
 from ortools.linear_solver import pywraplp
-from disaster_relief_backend.utils.distance_matrix import haversine
+from utils.distance_matrix import haversine
 
-from disaster_relief_backend.models import Zone, Depot, Asset, Assignment, Plan, KPIs
+from models import Zone, Depot, Asset, Assignment, Plan, KPIs
 import logging
 
 logger = logging.getLogger(__name__)

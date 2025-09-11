@@ -1,7 +1,7 @@
 import json
 from typing import List
 
-from disaster_relief_backend.models import Zone, Depot, Asset
+from models import Zone, Depot, Asset
 
 
 def load_zones(path: str) -> List[Zone]:
