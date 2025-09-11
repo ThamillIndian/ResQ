@@ -2,12 +2,12 @@ from pathlib import Path
 
 from fastapi import FastAPI
 
-from .models import Zone, Depot, Asset, Event, Plan
-from .utils.data_loader import load_zones, load_depots, load_assets
-from .utils.distance_matrix import compute_distance_matrix
-from .services.optimizer import optimize_plan
-from .services.event_handler import apply_event
-from .services.rationals import generate_rationales
+from models import Zone, Depot, Asset, Event, Plan
+from utils.data_loader import load_zones, load_depots, load_assets
+from utils.distance_matrix import compute_distance_matrix
+from services.optimizer import optimize_plan
+from services.event_handler import apply_event
+from services.rationals import generate_rationales
 
 
 app = FastAPI()
