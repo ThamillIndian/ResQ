@@ -32,5 +32,3 @@ Once running, visit [http://localhost:8000](http://localhost:8000) to access you
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ---
-
-**Project status:** Incomplete. Contributions and suggestions are welcome!
