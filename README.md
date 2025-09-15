@@ -1,20 +1,36 @@
-# Project Title
-ResQ
+# ResQ
 
 ## Description
-A brief description of what the project does and its purpose.
+ResQ is a Python project using FastAPI.  
+**Note:** The project is currently under development and incomplete.
 
-## Installation Instructions
-1. Clone the repository: `git clone https://github.com/ThamillIndian/ResQ.git`
-2. Navigate to the project directory: `cd ResQ`
-3. Install dependencies: `npm install` (or any other installation command relevant to your project)
+## Installation & Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/ThamillIndian/ResQ.git
+   cd ResQ
+   ```
+2. **Create a virtual environment and activate it:**
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate   # On Windows: venv\Scripts\activate
+   ```
+3. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. **Run the FastAPI app:**
+   ```bash
+   uvicorn main:app --reload
+   ```
 
 ## Usage
-Provide instructions and examples for using the project:
-```bash
-# Example command
-node index.js
-```
+Once running, visit [http://localhost:8000](http://localhost:8000) to access your FastAPI app.
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
+
+---
+
+**Project status:** Incomplete. Contributions and suggestions are welcome!
